@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    border: 0;
+}
+
 .themeOnPink {
     background: #de004e;
     border-radius: 12px;
