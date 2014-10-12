@@ -36,7 +36,7 @@ img {
 
 #wrap {
     margin: 40px auto 0;
-    width: 960px;
+    max-width: 960px;
 }
 
 header div {
@@ -49,7 +49,7 @@ header div {
     letter-spacing: -1px;
     text-align: right;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    width: 230px;
+    width: 24%;
 }
 
 .titleSite a {
@@ -64,10 +64,12 @@ header div {
     line-height: 37px;
     text-align: right;
     vertical-align: top;
-    width: 235px;
+    width: 24.5%;
 }
 
 .search {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
     float: right;
     position: relative;
 }
@@ -160,7 +162,7 @@ header div {
 #content {
     background: white;
     border-radius: 10px;
-    padding: 30px;
+    padding: 3%;
     position: relative;
 }
 
@@ -230,7 +232,7 @@ header div {
 .underMainImage p {
     color: white;
     font-size: 11px;
-    padding: 0 15px;
+    padding: 0 3%;
     word-spacing: 4px;
 }
 
@@ -242,13 +244,13 @@ header div {
 
 .freshNews {
     display:inline-block;
+    min-width: 290px;
     vertical-align: top;
     width: 38%;
 }
 
 .oneLineOnNews p {
     margin: 0;
-    padding: 0 0 0 71px;
 }
 
 .oneLineOnNews p:first-of-type {
@@ -267,6 +269,7 @@ header div {
     clear: left;
     float: left;
     margin: 0 17px 10px 0;
+    min-width: 39px;
     padding: 4px;
     width: 13%;
 }
@@ -288,51 +291,32 @@ header div {
 .oneLineOnNews .last {
     border-top: 1px solid white;
 }
-.containerOuter {
-    display: inline-block;
-    width: 100%;
+
+.blockBrieflyOnNews {
     border-top: 1px solid #ebebeb;
-    margin: 20px 0 0;
-}
-
-.containerInner {
-    position: relative;
-    right: 33%;
-    width: 100%;
-}
-
-.containerInnerMost {
-    position: relative;
-    right: 33%;
-    width: 100%;
-    border-right: 1px solid #ebebeb;
-    padding-left: 0;
+    margin: 10px 0 0 0;
 }
 
 .brieflyOnNews {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
     display: inline-block;
-    padding: 15px 20px 10px 25px;
+    min-width: 270px;
+    padding: 1.5% 2% 1% 2.8%;
     vertical-align: top;
-    width: 28%;
+    width: 32%;
 }
 
 .brieflyOnNews:first-of-type {
     padding-left: 0;
-    left: 68.67%;
-    overflow: hidden;
-    position: relative;
 }
 
-.brieflyOnNews:nth-of-type(2) {
-    left: 68.67%;
-    overflow: hidden;
-    position: relative;
+.brieflyOnNews:nth-child(2) {
+    border-left: 1px solid #ebebeb;
 }
 
 .brieflyOnNews:last-of-type {
-    left: 68.67%;
-    overflow: hidden;
-    position: relative;
+    padding-right: 0;
 }
 
 .brieflyOnNews p {
@@ -367,9 +351,9 @@ p.textBrieflyOnNews {
 }
 
 .sidebarLastContentUsers {
-    float: left;
+    display: inline-block;
     padding: 20px 0 0;
-    width: 34%;
+    width: 32%;
 }
 
 .columnLastComments {
@@ -407,6 +391,7 @@ p.textBrieflyOnNews {
 
 .columnArchives {
     border-top: 1px solid #EBEBEB;
+    margin-right: -5px;
     padding: 20px 0 0 0;
 }
 
@@ -504,4 +489,101 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 980px) {
+    .topMenu ul {
+        text-align: center;
+    }
+
+    .underMainImage p {
+        line-height: 160%;
+        margin: 0;
+    }
+
+    .titleOnMainImage {
+        line-height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 885px) {
+    .blockBrieflyOnNews {
+        text-align: center;
+    }
+
+    .brieflyOnNews {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    header {
+        text-align: center;
+    }
+
+    #wrap header div {
+        width: 33%;
+    }
+
+    .search {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mainNews {
+        display: block;
+        margin: 0 auto;
+        min-width: 330px;
+    }
+
+    .freshNews {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    #wrap header div {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #wrap header .search {
+        margin: 0 30%;
+        width: 30%;
+    }
+
+    .search input {
+        min-width: 80px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    .lastContentUsers {
+        text-align: center;
+    }
+
+    .sidebarLastContentUsers {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    footer {
+        text-align: center;
+    }
+
+    .leftSidePostscript, .rightSidePostscript {
+        float: none;
+    }
+}
+
 
