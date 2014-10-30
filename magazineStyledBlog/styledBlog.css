@@ -17,6 +17,10 @@ img {
     border: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 .themeOnPink {
     background: #de004e;
     border-radius: 12px;
@@ -39,11 +43,17 @@ img {
     max-width: 960px;
 }
 
+header {
+    clear: both;
+    min-height: 40px;
+}
+
 header div {
     display: inline-block;
 }
 
 .titleSite {
+    float: left;
     font-family: Minion Pro;
     font-size: 29px;
     letter-spacing: -1px;
@@ -58,6 +68,7 @@ header div {
 
 .slogan {
     color: #666666;
+    float: left;
     font-family: Minion Pro;
     font-size: 12px;
     font-weight: 100;
@@ -111,6 +122,7 @@ header div {
 }
 
 .topMenu {
+    padding: 40px 0 20px 0\0/;   /* ======================= for ie8  ===================================  */
     margin: 21px 0 0 0;
 }
 
@@ -160,7 +172,7 @@ header div {
 /*=================CONTENT=======================*/
 
 #content {
-    background: white;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 3%;
     position: relative;
@@ -525,9 +537,12 @@ footer {
         width: 33%;
     }
 
+    header div {
+        float: none;
+    }
+
     .search {
         display: block;
-        float: none;
         margin: 0 auto;
     }
 }

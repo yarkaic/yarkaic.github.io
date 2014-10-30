@@ -1,0 +1,377 @@
+@font-face {
+    font-family: "SegoeWPN";
+    src: url("../fonts/SegoeWPN.ttf");
+}
+
+@font-face {
+    font-family: "SegoeWPN Light";
+    src: url("../fonts/SegoeWPN-Light.ttf");
+}
+
+html, body {
+    font-family: "SegoeWPN";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header, .mainSlider, section, footer {
+    min-width: 550px;
+}
+
+header, section, footer {
+    margin: 0 auto;
+    width: 75%;
+}
+
+header .navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.logo {
+    height: 80px;
+}
+
+button.navbar-toggle {
+    background: #5094f2;
+    border: 0;
+    margin-top: 25px;
+}
+
+.navbar-inverse button.navbar-toggle:hover, .navbar-inverse button.navbar-toggle:focus {
+    background-color: #5094f2;
+}
+
+.navbar-toggle .icon-bar {
+    height: 5px;
+    width: 35px;
+}
+
+.mainMenu {
+    font-family: "SegoeWPN Light";
+    font-size: 120%;
+    margin: 19px 0 0 0;
+}
+
+.mainMenu > li > a {
+    color: #676767;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 0 0 1px rgba(103, 103, 103, 0.7);
+}
+
+.navbar-inverse .mainMenu > li > a:hover, .navbar-inverse .mainMenu > li > a:focus {
+    color: #676767;
+}
+
+.navbar-inverse .mainMenu > .active > a, .navbar-inverse .mainMenu > .active > a:hover,
+.navbar-inverse .mainMenu > .active > a:focus {
+    background-color: transparent;
+    color: #676767;
+}
+
+.navbar-inverse .mainMenu > .active span {
+    position: relative;
+}
+
+.navbar-inverse .mainMenu > .active span:after {
+    background: #5292f4;
+    bottom: -24px;
+    content: " ";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.mainSlider {
+    background-image: url("../img/backgroundMainGallery.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "SegoeWPN Light";
+    margin: 0 0 50px 0;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.mainSlider .item > img {
+    margin: 2% 0 0 17%;
+}
+
+.mainSlider .carousel-caption {
+    bottom: auto;
+    min-width: 320px;
+    left: 50%;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    top: 14%;
+}
+
+.mainSlider .carousel-caption > h1 {
+    font-size: 260%;
+}
+
+.mainSlider .carousel-caption > p {
+    font-size: 155%;
+}
+
+.mainSlider .carousel-caption > button {
+    background: none repeat scroll 0 0 #5094F2;
+    border: medium none;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 141%;
+    margin: 5% 0 0 3%;
+    padding: 1% 2.5% 1.5%;
+}
+
+.mainSlider .carousel-control {
+    color: #959da8;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.carousel-control, .carousel-control:hover, .carousel-control:focus {
+    background: transparent;
+    opacity: 1;
+}
+
+.mainSlider .carousel-control.left, .mainSlider .carousel-control.right {
+    background: transparent;
+    bottom: auto;
+    top: 48%;
+    width: auto;
+}
+
+.mainSlider .carousel-control.left {
+    left: 11%;
+}
+
+.mainSlider .carousel-control.right {
+    right: 11%;
+}
+
+.mainSlider .carousel-control.left span, .mainSlider .carousel-control.right span {
+    background: url("../img/arrow.png") no-repeat transparent;
+    display: inline-block;
+    height: 64px;
+    width: 26px;
+}
+
+.mainSlider .carousel-control.right span {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.stepByStep {
+    text-align: center;
+}
+
+.stepByStep h4 {
+    color: #4F91EF;
+    font-size: 125%;
+    text-shadow: 0 0 1px rgba(79, 145, 239, 0.7);
+}
+
+.stepByStep p {
+    color: #909090;
+    font-size: 90%;
+    text-shadow: 0 0 1px rgba(144, 144, 144, 0.7);
+}
+
+.blockImageAndText {
+    color: #707173;
+    margin: 50px 0;
+}
+
+.imageBlockImageAndText {
+    text-align: center;
+}
+
+.imageBlockImageAndText > h1 {
+    font-size: 260%;
+    margin-bottom: 35px;
+}
+
+.textBlockImageAndText {
+    padding: 50px 0 0 70px;
+}
+
+.textBlockImageAndText > h3 {
+    font-size: 170%;
+}
+
+.textBlockImageAndText > p {
+    color: #909090;
+    line-height: 220%;
+}
+
+.lineWithSectionAndFooter {
+    color: #e5e5e5;
+    height: 1px;
+}
+
+footer p {
+    color: #939393;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 920px) {
+    .navbar .container-fluid .navbar-header {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .navbar .container-fluid .navbar-brand {
+        float: none;
+    }
+
+    .navbar-brand img {
+        margin: 20px 0 10px;
+    }
+
+    header .mainMenu.navbar-right {
+        float: none !important;
+        margin: 0 auto;
+        width: 440px;
+    }
+
+    .navbar-nav.navbar-right:last-child {
+        margin: 0 auto;
+    }
+
+    .navbar-inverse .mainMenu > .active span:after {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 755px) {
+    header {
+        width: 95%;
+    }
+    .navbar .container-fluid .navbar-header {
+        display: block;
+        text-align: inherit;
+    }
+
+    .mainSlider .item > img {
+        margin: 3% 0 4% 5%;
+        max-height: 200px;
+    }
+
+    .mainSlider .carousel-caption {
+        left: 40%;
+        top: -20%;
+    }
+
+    .mainSlider .carousel-caption > h1 {
+        font-size: 210%;
+    }
+
+    .mainSlider .carousel-caption > p {
+        width: 75%;
+    }
+
+    .mainSlider .carousel-caption > button {
+        font-size: 185%;
+        margin-left: 0;
+        padding: 1% 4% 2%;
+    }
+
+    .mainSlider .carousel-control.left, .mainSlider .carousel-control.right {
+        top: 30%;
+    }
+
+    .mainSlider .carousel-control.left {
+        left: 2%;
+    }
+
+    .mainSlider .carousel-control.right {
+        right: 2%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .stepByStep {
+        text-align: left;
+    }
+
+    .stepByStep .col-md-4 {
+        border-bottom: 1px solid #cccccc;
+        margin: 0 0 30px;
+        padding-bottom: 15px;
+    }
+
+    .stepByStep .col-md-4 > img {
+        display: inline-block;
+        margin: 0 20px 0 0;
+        max-width: 150px;
+        vertical-align: middle;
+    }
+
+    .textStep {
+        display: inline-block;
+        max-width: 340px;
+        vertical-align: middle;
+    }
+
+    .textStep h4 {
+        font-size: 200%;
+        text-shadow: none;
+    }
+
+    .textStep p {
+        font-size: 120%;
+        text-shadow: none;
+    }
+
+    .imageBlockImageAndText {
+        margin: 7px 0 15px 0;
+    }
+
+    .imageBlockImageAndText > h1 {
+        margin-top: 0;
+    }
+
+    .imageBlockImageAndText > img {
+        max-width: 230px;
+    }
+
+    .textBlockImageAndText {
+        padding: 0 0 0 7%;
+    }
+
+    .textBlockImageAndText > h3 {
+        font-size: 200%;
+    }
+
+    .textBlockImageAndText > p {
+        font-size: 120%;
+        line-height: 200%;
+    }
+
+}
+

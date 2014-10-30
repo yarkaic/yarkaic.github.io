@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+        <html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoodInc</title>
+
+    <style>
+        @font-face {
+            font-family: 'nexaRegular';
+            src: url('fonts/nexaRegular.eot');
+            src: url('fonts/nexaRegular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/nexaRegular.woff') format('woff'),
+            url('fonts/nexaRegular.ttf') format('truetype'),
+            url('fonts/nexaRegular.svg#nexaRegular') format('svg');
+        }
+
+        @font-face {
+            font-family: 'nexaBold';
+            src: url('fonts/nexaBold.eot');
+            src: url('fonts/nexaBold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/nexaBold.woff') format('woff'),
+            url('fonts/nexaBold.ttf') format('truetype'),
+            url('fonts/nexaBold.svg#nexaBold') format('svg');
+        }
+
+        @font-face {
+            font-family: 'nexaItalic';
+            src: url('fonts/nexaItalic.eot');
+            src: url('fonts/nexaItalic.eot?#iefix') format('embedded-opentype'),
+            url('fonts/nexaItalic.woff') format('woff'),
+            url('fonts/nexaItalic.ttf') format('truetype'),
+            url('fonts/nexaItalic.svg#nexaItalic') format('svg');
+        }
+    </style>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/goodInc.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<div role="navigation" class="navbar navbar-inverse topBlock">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img src="img/logotype.png"> Good Inc.</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <div class="nav navbar-nav navbar-right">
+            <div class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                    <img class="iconForDropdown" src="img/icons/iconMap.png"> <span class="nameForDropdown">Newsletter</span>
+                    <div class="blockForArrows">
+                       <span class="arrows"><></span>
+                    </div>
+                    </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Notice</a></li>
+                    <li><a href="#">Advert</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                    <img class="iconForDropdown" src="img/icons/iconClock.png"> <span class="nameForDropdown">Contact</span>
+                    <div class="blockForArrows">
+                        <span class="arrows"><></span>
+                    </div>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Another contact</a></li>
+                    <li><a href="#">More contact</a></li>
+                    <li><a href="#">One more contact</a></li>
+                    <li><a href="#">Enough contact!</a></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</div>
+
+<!--/.topBlock -->
+
+<div role="navigation" class="navbar navbar-inverse mainMenu">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button data-target=".collapseMainMenu" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand brandMainMenu"><img src="img/icons/iconMap.png"></a>
+        </div>
+
+        <div class="navbar-collapse collapseMainMenu collapse">
+            <ul class="nav navbar-nav sectionsOfSite navbar-left">
+                <li class="active"><a href="#">Portfolio</a></li>
+                <li><a href="#nothing">Services</a></li>
+                <li><a href="#nothing">Staff</a></li>
+                <li><a href="#nothing">Articles</a></li>
+                <li><a href="#nothing">Contact</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav quickLinks navbar-right">
+                <li>Quicklinks <img src="img/icons/iconMap.png"></li>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="nameForDropdown">Select from dropdown</span>
+                        <div class="blockForArrows">
+                            <span class="arrows"><></span>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Another contact</a></li>
+                        <li><a href="#">More contact</a></li>
+                        <li><a href="#">One more contact</a></li>
+                        <li><a href="#">Enough contact!</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<div role="navigation" class="searchSocnet">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="form-group siteSearch">
+                    <input type="text" class="form-control" placeholder="Search for something here">
+                </li>
+                <li class="dropdown searchOptions">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="nameForDropdown"><img src="img/icons/iconMapGray.png"> Findy</span>
+                        <div class="blockForArrows">
+                            <span class="arrows"><></span>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu searchCategory">
+                        <li><a href="#">Get distruction!</a></li>
+                        <li><a href="#">We need more fish, isn't it?</a></li>
+                        <li><a href="#">Finally correct</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#"><span><img src="img/icons/iconTwitter.png"> Twitter</span></a></li>
+                <li><a href="#nothing"><img src="img/icons/iconFacebook.png"> Facebook</span></a></li>
+                <li><a href="#nothing"><img src="img/icons/iconRss.png"> RSS</a></li>
+                <li><a href="#nothing"><img src="img/icons/iconLetter.png"> Mail</a></li>
+            </ul>
+
+        </div>
+        <!--/.search and socnet -->
+    </div>
+</div>
+
+<div data-ride="carousel" class="carousel mainSlider slide" id="myCarousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li class="" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel" class=""></li>
+        <li data-slide-to="2" data-target="#myCarousel" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img alt="Third slide" src="img/imageMainSlider.png">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h4>House work can't kill you, but why take a chance?</h4>
+                    <p>
+                        Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non
+                        lobortis eros interdum. Maecenas quis risus felis, at volutpat elit...
+                    </p>
+                    <p class="bottomIncription">
+                        <a href="#" class="linkFullArticle pull-left">+</a>
+                        <span class="dataArticle pull-right"><img src="img/icons/iconClockGray.png"> 14th April 2013 </span>
+                    </p>
+                </div>
+                <p class="imageCaption">Good Inc. image caption to go here</p>
+            </div>
+        </div>
+        <div class="item">
+            <img alt="First slide" src="img/imageMainSlider.png">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h4>I die as I lived...alone. </h4>
+                    <p>
+                        Who fears the wolf should fear the forest. Hate to hit and run. There's a fine line between bravery and stupidity.
+                        Extinction.
+                    </p>
+                    <p class="bottomIncription">
+                        <a href="#" class="linkFullArticle pull-left">+</a>
+                        <span class="dataArticle pull-right"><img src="img/icons/iconClockGray.png"> 6th April 2013 </span>
+                    </p>
+                </div>
+                <p class="imageCaption">You are fake</p>
+            </div>
+        </div>
+        <div class="item">
+            <img alt="Second slide" src="img/imageMainSlider.png">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h4>You fought and die with honor.</h4>
+                    <p>
+                        Fuzzy Wuzzy go now to the river, to wash your blood from my claws. You came too close to what is mine.
+                    </p>
+                    <p class="bottomIncription">
+                        <a href="#" class="linkFullArticle pull-left">+</a>
+                        <span class="dataArticle pull-right"><img src="img/icons/iconClockGray.png"> 29th Marсh 2013 </span>
+                    </p>
+                </div>
+                <p class="imageCaption">Without nothing.</p>
+            </div>
+        </div>
+    </div>
+    <a data-slide="prev" href="#myCarousel" class="left carousel-control"><span></span> < </a>
+    <a data-slide="next" href="#myCarousel" class="right carousel-control"><span></span> > </a>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="carousel slide additionalSlider" id="myCarousel2">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery.png">
+                               <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>Taste & Sounds from Thailand</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+                        </div>
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery2.png">
+                                <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>BlazRobar.com is awesome for PSD</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+
+                        </div>
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery3.png">
+                                <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>Nice looking Mountains Ah?</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery3.png">
+                                <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>Nice looking Mountains Ah?</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+                        </div>
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery.png">
+                                <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>Taste & Sounds from Thailand</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+                        </div>
+                        <div class="oneColumn">
+                            <div class="wrapImage">
+                                <img src="img/imageSecondGallery.png">
+                                <a class="angledTriangle" href="#"><span>+</span></a>
+                            </div>
+                            <h3>Taste & Sounds from Thailand</h3>
+                            <p>We've made some small changes to BlazRobar.com...</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel2" data-slide="prev"> < </a>
+                <a class="right carousel-control" href="#myCarousel2" data-slide="next"> > </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 basisContent">
+                <div class="blocksForShortNews">
+                    <div class="blockBigNews">
+                        <h3>
+                            Good Inc. Good Choice.
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                14th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                32 comments
+                            </span>
+                            <span class="ratingShortNews">
+
+                            </span>
+
+                        </p>
+                        <p class="textShortNews">
+                            I believe that if life gives you lemons, you should make lemonade... And try to find somebody whose life has given
+                            them vodka, and have a party.
+                        </p>
+                    </div>
+
+                    <div class="blockBigNews">
+                        <h3>
+                            Behind every great man is a woman rolling
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                            <span class="ratingShortNews">
+
+                            </span>
+
+                        </p>
+                        <p class="textShortNews">
+                            Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non
+                            lobortis eros interdum.
+                        </p>
+                    </div>
+
+                    <div class="blockNews">
+                        <h3 class="first">
+                            A day without sunshine is like, you know, night.
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                    </div>
+                    <div class="blockNews">
+                        <h3>
+                            As a child my family's menu consisted of two choices: take it
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                    </div>
+                    <div class="blockNews">
+                        <h3>
+                            Get your facts first, then you can distort them as you please.
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                    </div>
+                    <div class="blockNews">
+                        <h3>
+                            As a child my family's menu consisted of two choices: take it
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                    </div>
+                    <div class="blockNews">
+                        <h3>
+                            Get your facts first, then you can distort them as you please.
+                        </h3>
+                        <p class="additionalInfoShortNews">
+                            <span class="dataShortNews">
+                                13th January 2013
+                            </span>
+                            <span class="numberOfComments">
+                                312 comments
+                            </span>
+                    </div>
+                    <a href="#" class="linkToReviewNews">
+                        read more
+                        <br>
+                        <span>+</span>
+                    </a>
+
+                    <div class="blockFilter">
+                        Search work by <img src="img/icons/iconBooks.png">
+                       <span class="selectFilter">
+                        <select>
+                            <option>
+                                Website Design
+                            </option>
+                            <option>
+                                Eliminated Worker
+                            </option>
+                            <option>
+                                Poison of Lukarker
+                            </option>
+                            <option>
+                                Rusty Silently
+                            </option>
+                        </select>
+                        <span class="blockForArrows">
+                            <span class="arrows"><></span>
+                        </span>
+                       </span>
+                    </div>
+                </div>
+                <div class="previewsNews">
+                    <div class="newsAudienceChoice previewTextNews">
+                        <a class="linkFullNewsInPreview" href="#">+</a>
+                        <h2>
+                            Nice text boxage here
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris vitae
+                            sapien bibendum tincidunt.
+                            <a href="#"><span class="redText">Check leo dignissim +</span></a>
+                            <br>
+                            Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at
+                            dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante<span class="redText">
+                        ipsum primis in faucibus orci</span> luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique elementum
+                            tristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.
+                        </p>
+                    </div>
+
+                    <div class="previewGalleryNews">
+                        <div data-ride="carousel" class="carousel galleryNews slide" id="galleryWithNews" data-interval="false">
+                            <ol class="carousel-indicators">
+                                <li class="" data-slide-to="0" data-target="#myCarousel"></li>
+                                <li data-slide-to="1" data-target="#myCarousel" class=""></li>
+                                <li data-slide-to="2" data-target="#myCarousel" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img alt="Third slide" src="img/imageBottom.png">
+                                </div>
+                                <div class="item">
+                                    <img alt="First slide" src="img/imageBottom.png">
+                                </div>
+                                <div class="item">
+                                    <img alt="Second slide" src="img/imageBottom.png">
+                                </div>
+                            </div>
+                            <a class="linkFullNewsInPreview" href="#">+</a>
+                            <a data-slide="prev" href="#galleryWithNews" class="left carousel-control"><span></span> < </a>
+                            <a data-slide="next" href="#galleryWithNews" class="right carousel-control"><span></span> > </a>
+                        </div>
+
+                        <div class="captionGalleryNews previewTextNews">
+                            <h2>
+                                I llike long walks, especially when they are taken by people who really annoy me.
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper
+                                mauris vitae sapien bibendum tincidunt.
+                                <a href="#"><span class="redText">Check leo dignissim +</span></a>
+
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="newsAudienceChoice previewTextNews">
+                        <a class="linkFullNewsInPreview" href="#">+</a>
+                        <h2>
+                            A slightly different text box
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet,  consectetur adipiscing elit. Donec eu turpis purus. Pellentesque ullamcorper mauris
+                            vitae
+                            sapien bibendum tincidunt.
+                            <a href="#"><span class="redText">Check leo dignissim +</span></a>
+                            <br>
+                            Morbi malesuada mauris sed nibh placerat sit amet posuere libero egestas. Vestibulum consectetur iaculis est, at
+                            dapibus purus malesuada vitae. Mauris sollicitudin aliquam scelerisque. Vestibulum ante<span class="redText">
+                            ipsum primis in faucibus orci</span> luctus et ultrices posuere cubilia Curae; Donec et mi sem. Duis tristique
+                            elementumtristique. Sed ac magna quis erat sagittis suscipit. Phasellus faucibus  rhoncus massa, non laoreet lorem
+                            fringilla non.
+                            <br>
+                            Mauris sollicitudin aliquam scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Donec et mi sem. Duis tristique elementum tristique. Sed ac magna quis erat sagittis suscipit.
+                            Phasellus faucibus rhoncus massa, non laoreet lorem fringilla non.
+                        </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 sidebar">
+                <div class="sidebarNewsBig">
+                    <img src="img/imageSideBlock.png">
+                    <a href="#" class="linkSidebarNewsBig">
+                        <span>+</span>
+                    </a>
+
+                        <h3>
+                            Nice Looking Mountains Ah?
+                        </h3>
+                        <p>
+                            Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non
+                            lobortis eros interdum. Maecenas quis risus felis, at volutpat elit. Proin vel nisl in orci venenatis suscipit
+                            eget sed lectus.
+                        </p>
+
+                </div>
+
+                <div class="sidebarNewsText">
+                    <h4>
+                        Housework can't kill you, but why take a chance?
+                    </h4>
+                    <p>
+                        Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non
+                        lobortis eros interdum...
+                    </p>
+                    <a href="#" class="linkSidebarNewsText">
+                        <span>+</span>
+                        13th January 2013
+                    </a>
+                    <hr>
+                </div>
+                <div class="sidebarNewsText">
+                    <h4>
+                        My fake plants died because I did not pretend to water them.
+                    </h4>
+                    <p>
+                        Quisque accumsan eleifend dolor, nec bibendum nibh ultricies at. Nunc convallis risus sit amet augue bibendum non
+                        lobortis eros interdum...
+                    </p>
+                    <a href="#" class="linkSidebarNewsText">
+                        <span>+</span>
+                        10th January 2013
+                    </a>
+                </div>
+
+                <div class="sidebarImportantLinks">
+                    <a href="#" class="importantLink">
+                        <span>About Us</span> (Blaz Robar)
+                    </a>
+                    <a href="#" class="importantLink">
+                        <span>How to</span> (Jamie Oliver)
+                    </a>
+                    <a href="#" class="importantLink">
+                        <span>Writer of us</span> (Bill Murray)
+                    </a>
+                    <a href="#" class="importantLink">
+                        <span>Video Testimonails</span> (John Smith)
+                    </a>
+                </div>
+
+                <table class="statisticSite">
+                    <tr>
+                        <th>
+                            1980
+                        </th>
+                        <td>
+                            <img src="img/icons/iconGlasses.png">
+                        </td>
+                        <td>
+                            Active Readers
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            126
+                        </th>
+                        <td>
+                            <img src="img/icons/iconPencil.png">
+                        </td>
+                        <td>
+                            Post Articles
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            42
+                        </th>
+                        <td>
+                            <img src="img/icons/iconDownload.png">
+                        </td>
+                        <td>
+                            Free Downloads
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            1
+                        </th>
+                        <td>
+                            <img src="img/icons/iconLogotype.png">
+                        </td>
+                        <td>
+                            Good Inc
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div role="navigation" class="navbar navbar-inverse mainMenu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand brandFooter"><img src="img/logotype.png"> Good Inc.</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav sectionsOfSite navbar-right">
+                    <li class="active"><a href="#"><span>Portfolio</span></a></li>
+                    <li><a href="#nothing"><span>Services</span></a></li>
+                    <li><a href="#nothing"><span>Staff</span></a></li>
+                    <li><a href="#nothing"><span>Articles</span></a></li>
+                    <li><a href="#nothing"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="importantLinksFooter">
+                    <a href="#">About us</a> <a href="#">Footer Links here</a> <a href="#">Privacy</a> <a href="#">Page Links also</a>
+                </p>
+                <p class="afterWord">
+                    As cross as a hoon my built like a op shop. We're doing bored sh*tless heaps she'll be right budgie smugglers. Grab us a
+                    durry mate she'll be right dunny rat. She'll be right larrikin with skite. As stands out like hero it'll be truckie.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.rating-2.0.js"></script>
+
+<script src="js/jquery.ikSelect.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(function(){
+            $('.ratingShortNews').rating({
+               image: 'img/starsGray0.png',
+                url: 'rating.php',
+                callback: function(responce){
+                    this.vote_success.fadeOut(2000);
+                }
+            });
+        });
+
+        $('.blockBigNews').hover(
+                function() {
+                    $('.ratingShortNews').rating({
+                        image: 'img/starsWhite0.png'
+                    });
+
+                    $('.additionalInfoShortNews').css("color" , "white");
+                },
+                function() {
+                    $('.ratingShortNews').rating({
+                        image: 'img/starsGray0.png'
+                    });
+
+                    $('.additionalInfoShortNews').css("color" , "#adadad");
+                }
+        );
+
+        $(function () {
+            $('select').ikSelect();
+        });
+    });
+</script>
+
+
+</body>
+        </html>
