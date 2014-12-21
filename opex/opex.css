@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: SenturyGothic;
-    src: url(fonts/GOTHIC.ttf);
+    src: url(fonts/GOTHIC.TTF);
 }
 
 @font-face {
     font-family: SenturyGothicBold;
-    src: url(fonts/GOTHICB.ttf);
+    src: local(GOTHICB), url(fonts/GOTHICB.TTF);
 }
 
 html, body {

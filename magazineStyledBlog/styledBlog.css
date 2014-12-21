@@ -519,6 +519,10 @@ footer {
 }
 
 @media screen and (max-width: 885px) {
+    #wrap header .search {
+        width: auto;
+    }
+
     .blockBrieflyOnNews {
         text-align: center;
     }

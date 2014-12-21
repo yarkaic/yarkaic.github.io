@@ -1,109 +1,107 @@
+header {
+    background: rgba(199, 230, 108, 0.7);
+    width: 95%;
+}
+.navbar .container-fluid .navbar-header {
+    display: block;
+    text-align: inherit;
+}
 
+.mainSlider .item > img {
+    margin: 3% 0 4% 5%;
+    max-height: 200px;
+}
 
-    header {
-        background: green;
-        width: 95%;
-    }
-    .navbar .container-fluid .navbar-header {
-        display: block;
-        text-align: inherit;
-    }
+.mainSlider .carousel-caption {
+    left: 40%;
+    top: -20%;
+}
 
-    .mainSlider .item > img {
-        margin: 3% 0 4% 5%;
-        max-height: 200px;
-    }
+.mainSlider .carousel-caption > h1 {
+    font-size: 210%;
+}
 
-    .mainSlider .carousel-caption {
-        left: 40%;
-        top: -20%;
-    }
+.mainSlider .carousel-caption > p {
+    width: 75%;
+}
 
-    .mainSlider .carousel-caption > h1 {
-        font-size: 210%;
-    }
+.mainSlider .carousel-caption > button {
+    font-size: 185%;
+    margin-left: 0;
+    padding: 1% 4% 2%;
+}
 
-    .mainSlider .carousel-caption > p {
-        width: 75%;
-    }
+.mainSlider .carousel-control.left, .mainSlider .carousel-control.right {
+    top: 30%;
+}
 
-    .mainSlider .carousel-caption > button {
-        font-size: 185%;
-        margin-left: 0;
-        padding: 1% 4% 2%;
-    }
+.mainSlider .carousel-control.left {
+    left: 2%;
+}
 
-    .mainSlider .carousel-control.left, .mainSlider .carousel-control.right {
-        top: 30%;
-    }
+.mainSlider .carousel-control.right {
+    right: 2%;
+}
 
-    .mainSlider .carousel-control.left {
-        left: 2%;
-    }
+section {
+    width: 100%;
+}
 
-    .mainSlider .carousel-control.right {
-        right: 2%;
-    }
+.stepByStep {
+    text-align: left;
+}
 
-    section {
-        width: 100%;
-    }
+.stepByStep .col-md-4 {
+    border-bottom: 1px solid #cccccc;
+    margin: 0 0 30px;
+    padding-bottom: 15px;
+}
 
-    .stepByStep {
-        text-align: left;
-    }
+.stepByStep .col-md-4 > img {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    max-width: 150px;
+    vertical-align: middle;
+}
 
-    .stepByStep .col-md-4 {
-        border-bottom: 1px solid #cccccc;
-        margin: 0 0 30px;
-        padding-bottom: 15px;
-    }
+.textStep {
+    display: inline-block;
+    max-width: 370px;
+    vertical-align: middle;
+}
 
-    .stepByStep .col-md-4 > img {
-        display: inline-block;
-        margin: 0 20px 0 0;
-        max-width: 150px;
-        vertical-align: middle;
-    }
+.textStep h4 {
+    font-size: 200%;
+    text-shadow: none;
+}
 
-    .textStep {
-        display: inline-block;
-        max-width: 370px;
-        vertical-align: middle;
-    }
+.textStep p {
+    font-size: 120%;
+    text-shadow: none;
+}
 
-    .textStep h4 {
-        font-size: 200%;
-        text-shadow: none;
-    }
+.imageBlockImageAndText {
+    margin: 7px 0 15px 0;
+}
 
-    .textStep p {
-        font-size: 120%;
-        text-shadow: none;
-    }
+.imageBlockImageAndText > h1 {
+    margin-top: 0;
+}
 
-    .imageBlockImageAndText {
-        margin: 7px 0 15px 0;
-    }
+.imageBlockImageAndText > img {
+    max-width: 230px;
+}
 
-    .imageBlockImageAndText > h1 {
-        margin-top: 0;
-    }
+.textBlockImageAndText {
+    padding: 0 0 0 7%;
+}
 
-    .imageBlockImageAndText > img {
-        max-width: 230px;
-    }
+.textBlockImageAndText > h3 {
+    font-size: 200%;
+}
 
-    .textBlockImageAndText {
-        padding: 0 0 0 7%;
-    }
-
-    .textBlockImageAndText > h3 {
-        font-size: 200%;
-    }
-
-    .textBlockImageAndText > p {
-        font-size: 120%;
-        line-height: 200%;
-    }
+.textBlockImageAndText > p {
+    font-size: 120%;
+    line-height: 200%;
+}
 

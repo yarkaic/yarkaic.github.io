@@ -1,0 +1,33 @@
+header, section, footer {
+    min-width: 640px;
+    width: 100%;
+}
+
+.blockForSidebar {
+    float: none;
+    margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .headerOrderTable > span {
+        display: block;
+        text-align: center;
+    }
+
+    .headerOrderTable > span:last-child {
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .linkTwitter, .bottomMenu {
+        display: block;
+        text-align: center;
+    }
+
+    .bottomMenu {
+        float: none;
+        margin-top: 15px;
+    }
+}

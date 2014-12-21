@@ -1,5 +1,5 @@
 body {
-    background: url("img/planetSatelliteRings.jpg") center top no-repeat;
+    background: url("img/backgroundPrototype.jpg") center top no-repeat black;
     color: white;
     font-size: 16px;
     margin: 0;
@@ -66,6 +66,7 @@ section {
     margin: 100px auto;
     padding: 30px 0;
     text-align: center;
+    z-index: 10;
 }
 
 section > div {
@@ -102,8 +103,9 @@ footer {
     bottom: 0;
     left: 0;
     padding: 20px 50px;
-    position: fixed;
+    position: relative;
     right: 0;
+    z-index: -10;
 }
 
 footer span {
