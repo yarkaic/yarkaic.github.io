@@ -34,6 +34,7 @@ body {
     background: -ms-linear-gradient(top,  rgba(238,237,229,1) 0%,rgba(243,242,233,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(238,237,229,1) 0%,rgba(243,242,233,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeede5', endColorstr='#f3f2e9',GradientType=0 ); /* IE6-9 */
+    position: relative;
 }
 
 a {
@@ -105,11 +106,12 @@ header, section, footer {
 }
 
 header {
-    margin: 30px auto 10px;
+    padding: 30px 0 10px;
 }
 
 .mainMenu {
     font-family: "proximaNovaSemibold", "Helvetica";
+    white-space: nowrap;
 }
 
 .mainMenu ul {
@@ -211,6 +213,7 @@ section {
 
 .contentPost > img {
     border: 1px solid #ececec;
+    max-width: 160px;
     padding: 5px;
 }
 
@@ -269,6 +272,7 @@ section {
 .aboutThisSite > img {
     border: 1px solid #ececec;
     margin: 0 10px 0 0;
+    max-width: 80px;
     padding: 3px;
 }
 
@@ -414,9 +418,9 @@ section {
 
 
 .patternedBackgroundFooter {
+    bottom: 0;
     box-shadow: 0 -95px 0 rgba(0, 0, 0, 0.5) inset;
-    height: 420px;
-    margin: 50px 0 0;
+    height: 23%;
 }
 
 .patternedBackgroundFooter:before {
@@ -429,7 +433,7 @@ section {
 
 footer {
     color: white;
-    margin-top: 50px;
+    margin-top: 21%;
     position: relative;
 }
 
@@ -499,6 +503,12 @@ footer .mainMenu li:first-child a {
 
 footer .logo {
     text-align: right;
+}
+
+@media screen and (max-width: 1320px ) {
+    .mainMenu {
+        white-space: normal;
+    }
 }
 
 @media screen and (max-width: 1212px ) {

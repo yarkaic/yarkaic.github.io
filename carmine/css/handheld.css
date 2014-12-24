@@ -1,0 +1,39 @@
+header, section, footer {
+    width: 640px;
+}
+
+.patternedBackground {
+    width: 640px;
+}
+
+#content {
+    width: 66.13%;
+}
+
+#sidebar {
+    width: 33.5%;
+}
+
+.searchInside .search input, .search .ik_select, .searchBegin {
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.search input {
+    border-right: 1px solid #dfdfdf;
+}
+
+.subListOfCategories li a {
+    text-align: center;
+}
+
+.subListOfCategories .numbersOfPosts {
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+.contactUs {
+    padding: 0 2%;
+}

@@ -41,6 +41,7 @@ img {
 #wrap {
     margin: 40px auto 0;
     max-width: 960px;
+    min-width: 640px;
 }
 
 header {
@@ -516,6 +517,10 @@ footer {
         line-height: 100%;
     }
 
+    .lastPhotos a:nth-child(3n), .lastVideos a:nth-child(3n) {
+        margin-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 885px) {
@@ -581,6 +586,10 @@ footer {
     .search input {
         min-width: 80px;
         width: 100%;
+    }
+
+    .lastPhotos a, .lastVideos a, .lastPhotos a:nth-child(3n), .lastVideos a:nth-child(3n) {
+        margin-right: 10px;
     }
 
 }

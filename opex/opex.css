@@ -33,6 +33,7 @@ body {
     background: url("img/whiteBackgroundHeader.png") top left no-repeat;
     border-top: 2px solid #45342c;
     font-size: 16px;
+    min-width: 640px;
 }
 
 a {

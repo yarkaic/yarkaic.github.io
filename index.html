@@ -2,11 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="mySiteForPortfolio.css">
+  <link rel="stylesheet" href="handheld.css" media="only screen and (max-device-width:640px)">
 </head>
 <body>
 <header>
-  <div class="backgroundHeader"></div>
   <ul>
     <li>
       <a href="#">
@@ -20,9 +21,9 @@
       </a>
     </li>
 
-    <li>
-      <a class="exit" href="http://yandex.ru">
-        <div class="secret">
+    <li >
+      <a class="exit" href="http://yandex.ru" data-hover="hover-on-menu">
+        <div class="secret"  data-hover="hover-on-link">
           Всё увидели? <br>
           Тогда скатертью дорожка.
         </div>
@@ -106,5 +107,25 @@
 <footer>
   тиамат, модеус, инкуб и 2 воина легиона защищают этот сайт. <span>2014</span>
 </footer>
+
+<script>
+
+  var touchHover = function() {
+    $('[data-hover]').click(function(e){
+      e.preventDefault();
+      var $this = $(this);
+      var onHover = $this.attr('data-hover');
+      var linkHref = $this.attr('href');
+      if (linkHref && $this.hasClass(onHover)) {
+        location.href = linkHref;
+        return false;
+      }
+      $this.toggleClass(onHover);
+    });
+  };
+
+  $(document).ready(function() { touchHover(); });
+
+</script>
 </body>
 </html>

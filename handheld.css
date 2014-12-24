@@ -1,0 +1,8 @@
+html, body {
+    height: auto;
+    position: relative;
+}
+
+header, section, footer {
+    height: 100%;
+}
