@@ -1,0 +1,33 @@
+/* REQUIRED CSS */
+
+/* Custom radio-checkbox */
+.radio, .checkbox {
+	background: url(../img/radio-checkbox2.png) no-repeat;
+  /* width and height of one radio/checkbox */
+	width: 12px; height: 12px;
+  /* desired margin */
+    margin: 0 7px 0 0;
+	/* don't modify this line */float:left;
+  /* ie 6 */overflow:hidden;
+}
+
+.radio {
+    height: 26px;
+    width: 26px;
+}
+
+.checkbox {
+    width: 23px;
+    height: 28px;
+}
+
+/* radio */
+.radio { background-position: 0 -25px }
+.radio-checked { background-position: 0 0 }
+
+/* checkbox */
+.checkbox { background-position: -26px -26px; }
+.checkbox-checked { background-position: -26px 1px; }
+
+/* hide input from view but still visible (ie & opera support) */
+.rc-hidden { position: absolute; left: -999em }
