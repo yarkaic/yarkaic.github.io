@@ -35,3 +35,10 @@ header, section, footer {
         margin-top: 15px;
     }
 }
+
+@media screen and (max-width: 660px) {
+    .bottomMenu li::after:nth-last-child(2) {
+        background: transparent;
+        width: 0;
+    }
+}
